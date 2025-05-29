@@ -213,15 +213,103 @@
         <!--**********************************
             Content body start
         ***********************************-->
-        <div class="content-body">
-            <h6>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-                eum nobis quisquam temporibus soluta, illum eligendi esse omnis iusto
-                ullam minima nemo. Quaerat, molestias consequatur reiciendis similique
-                unde et quod!
-            </h6>
-            <!-- #/ container -->
+   <div class="content-body px-xl-5">
+    <div class="my-4">
+        <h2 class="text-second"><strong class="text-first">Protect</strong> your email!</h2>
+        <p>Send emails to real contacts only to protect your email reputation and increase the</p>
+        <p style="line-height: 1px;">success of your campaigns.</p>
+    </div>
+
+    <div class="card-body shadow-lg rounded">
+        <div class="card rounded">
+            <div class="row row-button">
+                <div class="single">
+                    <button class="btn tab-btn active" data-target="tab-single">
+                        <i class="fa-solid fa-at"></i> SINGLE EMAIL
+                    </button>
+                </div>
+                <div class="file">
+                    <button class="btn tab-btn " data-target="tab-file">
+                        <i class="fa-solid fa-file-arrow-up"></i> FILE UPLOAD
+                    </button>
+                </div>
+                <div class="paste">
+                    <button class="btn tab-btn" data-target="tab-paste">
+                        <i class="fa-solid fa-bars"></i> PASTE EMAIL LIST
+                    </button>
+                </div>
+                <div class="integration">
+                    <button class="btn tab-btn" data-target="tab-integration">
+                        <i class="fa-solid fa-gear"></i> INTEGRATION
+                    </button>
+                </div>
+            </div>
         </div>
+
+        <!-- Tabs Content -->
+        <div class="tab-content ">
+    <div id="tab-single" class="tab-pane active  mt-xl-5">
+        <div class="text-center mb-4">
+            <img src="/images/custom/singleemail.png" class="img-fluid" style="max-width: 450px;" alt="Email Verification Result Mockup">
+        </div>
+        <p class="text-center center lead ">Enter an email address and click "Verify".</p>
+        <div class="row justify-content-center  ">
+            <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6 ">
+                <form>
+                    <div class="mb-3"> <input type="email" class="form-control form-control-lg rounded custom-input" placeholder="E.g. example@gmail.com" aria-label="Email address" aria-describedby="verify-button">
+                    </div>
+                    <button class="btn btn-lg w-100 rounded  verify text-white justify-content-center" type="submit" id="verify-button">
+                        <i class="fa-solid fa-check-circle me-2 text-white"></i> Verify
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+            <div id="tab-file" class="tab-pane mt-xl-5 ">
+    <div class="text-center mb-4 justify-content-center align-items-center">
+        <img src="/images/custom/bulkemail.png" class="img-fluid" style="max-width: 450px;" alt="Email Verification Result Mockup">
+    </div>
+    <p class="text-center center lead ">Drag & Drop Your File Here</p>
+
+    <div class="row justify-content-center ">
+        <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6 ">
+            <form>
+                <div class="mb-3">
+                    <p class="text-center">(.txt / .csv / .xlsx)</p> </div>
+                <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Verify
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+            <div id="tab-paste" class="tab-pane">
+    <div class="text-center mb-4">
+        </div>
+
+    <p class="text-center lead mb-4">Enter an email address and hit coma, Enter or Return. Once you entered all emails, you want to verify, click "Start Verification".</p>
+
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
+            <form>
+                <div class="mb-3">
+                    <textarea class="form-control form-control-lg rounded  custom-input-shadow" rows="8" placeholder="E.g. oliver123@gmail.com, john_walter@gmail.com"></textarea>
+                </div>
+                <button class="btn btn-lg w-100 rounded verify  text-white" type="submit">
+                    <i class="fa-solid fa-play me-2 text-white"></i> Start Verification
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+            <div id="tab-integration" class="tab-pane">
+                <p>Integration settings here...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
         <!--**********************************
             Content body end
         ***********************************-->
@@ -266,6 +354,28 @@
     <script src="./plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
 
     <script src="./js/dashboard/dashboard-1.js"></script>
+<script>
+document.querySelectorAll('.tab-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const target = button.getAttribute('data-target');
+
+        // Remove active class from all buttons
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+
+        // Add active to clicked button
+        button.classList.add('active');
+
+        // Hide all tab panes
+        document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+
+        // Show the targeted tab
+        document.getElementById(target).classList.add('active');
+    });
+});
+</script>
+
+
+
 </body>
 
 </html>

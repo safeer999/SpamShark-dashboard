@@ -38,4 +38,118 @@
       font-family: "Poppins";
       color: rgba(0, 0, 0, 1);
     
+}.text-first{
+     font-weight: 700;
+      font-family: "Poppins";
+      color: rgba(0, 164, 128, 1);
+      font-size: 48px;
+}.text-second{
+     font-weight: 700;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+      font-size: 48px;
+}p{
+     font-weight: 400;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+      font-size: 16px; 
+}.card-body {
+    height: 596px;
+    width: 1000px;
+    background-color: white;
 }
+
+.card-body .row-button {
+    background-color: rgba(247, 248, 248, 1);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    padding: 20px 0;
+}
+
+.card-body .row-button .btn {
+    background-color:white;
+    border-radius: 30%;
+    color: black;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Fix icon display */
+.card-body .row .btn i {
+    color: inherit;
+    font-size: 16px;
+}
+
+/* ACTIVE tab button */
+.single .tab-btn.active {
+    color: rgba(0, 164, 128, 1); 
+   
+}.file .tab-btn.active {
+    color: rgba(0, 164, 128, 1); 
+   
+}.paste .tab-btn.active {
+    color: rgba(0, 164, 128, 1); 
+   
+}.integration .tab-btn.active {
+    color: rgba(0, 164, 128, 1); 
+   
+}
+
+
+
+
+.tab-btn.active i {
+    color: white;
+}
+
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}.center{
+    font-weight: 600;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+      font-size: 16px;
+}.verify{
+    background: linear-gradient(to right, rgba(0, 69, 111, 1), rgba(0, 164, 128, 1));
+    font-weight: 400;
+    font-size: 16px;
+    height: 44px;
+}.background{
+    background-color: white;
+}.custom-input{
+     height: 44px;
+}.custom-input {
+        border: 1px solid black; 
+       
+    }
+
+    
+    .custom-input::placeholder {
+        color: rgb(0, 0, 0); 
+      
+    }
+
+   
+    .custom-input:focus {
+        border-color: black; 
+        box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .25); 
+        outline: 0;
+    }.text-area{
+        height: 207px;
+        width: 772px;
+    }
