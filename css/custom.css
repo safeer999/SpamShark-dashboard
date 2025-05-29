@@ -1,0 +1,41 @@
+.active-title{
+    font-weight: 700;
+     font-family: "Poppins", sans-serif;
+     size: 24px;
+}.admin-name{
+    font-weight: 700;
+     font-family: "Poppins";
+     size: 16px;
+}.metismenu{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+    gap: 10px;
+}.nav-text{
+    font-weight: 700;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+      font-size: 16px;
+}.small{
+    font-weight: 400;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+}.header-right{
+    color:black;
+}.nav-title{
+     font-weight: 700;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+      font-size: 24px;
+}.small{
+     font-weight: 700;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+      font-size: 13px;
+}.fw-bold{
+     font-weight: 700;
+      font-family: "Poppins";
+      color: rgba(0, 0, 0, 1);
+    
+}
