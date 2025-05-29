@@ -56,11 +56,12 @@
         <div class="nav-header">
             <div class="brand-logo">
                 <a href="index.html">
-                    <b class="logo-abbr"><img src="images/logo.png" alt="" /> </b>
-                    <span class="logo-compact"><img src="./images/logo-compact.png" alt="" /></span>
+                    <b class="logo-abbr"><img style="height: 30px; width: 50px" src="/images/custom/logo.png" alt="img-fluid " /> </b>
+                    <span class="logo-compact"><img style="height: 30px; width: 75px" src="/images/custom/logo.png" alt="img-fluid " /></span>
                     <span class="brand-title">
                         <img style="height: 30px; width: 150px" src="/images/custom/logo.png" class="img-fluid mb-3"
                             alt="" />
+                          
                     </span>
                 </a>
             </div>
@@ -72,10 +73,10 @@
         <!--**********************************
             Header start
         ***********************************-->
-        <div class="header">
-            <div class="header-content clearfix">
+        <div class="header ">
+            <div class="header-content clearfix ">
                 <div class="nav-control">
-                    <div class="hamburger">
+                    <div class="hamburger ">
                         <span class="toggle-icon"><i class="icon-menu"></i></span>
                     </div>
                 </div>
@@ -165,7 +166,7 @@
             Sidebar start
         ***********************************-->
         <div class="nk-sidebar">
-            <div class="nk-nav-scroll px-xl-3">
+            <div class="nk-nav-scroll px-xl-3 " >
                 <ul class="metismenu mt-lg-3" id="menu">
                     <li  class="mega-menu mega-menu-sm">
                         <a style="background-color: rgba(208, 255, 247, 1)" class="" href="/index.html" aria-expanded="false">
@@ -189,22 +190,16 @@
                             <i class="fa-solid fa-plug-circle-bolt"></i><span class="nav-text">API </span>
                         </a>
                     </li>
-                </ul>
-            </div>
-            <li class="d-none d-md-flex">
-                <i class="fa-solid fa-globe"></i>
-                <a href="javascript:void(0)" class="log-user" data-toggle="dropdown">
-                    <span>English</span>
-                </a>
-                <div class="drop-down dropdown-language animated fadeIn dropdown-menu">
-                    <div class="dropdown-content-body">
-                        <ul>
-                            <li><a href="javascript:void()">English</a></li>
-                            <li><a href="javascript:void()">Dutch</a></li>
-                        </ul>
-                    </div>
+                      <li class="language-selector-bottom border-top pt-3 pb-3 " style="margin-top: 500px;font-weight: 400;color: bl;">
+                <div class="d-flex align-items-center px-3"> <i class="fa-solid fa-globe me-2"></i> <select class="form-select form-select-sm border-0  text-dark nav-text pe-4" id="languageSelect">
+                        <option value="en">English</option>
+                        <option value="ur">Urdu</option>
+                        </select>
                 </div>
             </li>
+                </ul>
+            </div>
+           
         </div>
         <!--**********************************
             Sidebar end
@@ -278,34 +273,38 @@
                 <div class="mb-3">
                     <p class="text-center">(.txt / .csv / .xlsx)</p> </div>
                 <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
-                    <i class="fa-solid fa-plus me-2 text-white"></i> Verify
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Select File
                 </button>
             </form>
         </div>
     </div>
 </div>
             <div id="tab-paste" class="tab-pane">
-    <div class="text-center mb-4">
-        </div>
+   
 
-    <p class="text-center lead mb-4">Enter an email address and hit coma, Enter or Return. Once you entered all emails, you want to verify, click "Start Verification".</p>
-
+    <p class="text-start lead mb-4 ml-xl-5 mr-xl-5 " style="font-size: 19px;font-weight: 400;" >Enter an email address and hit coma, Enter or Return. Once you entered all emails, you want to verify, click "Start Verification".</p>
+  <div class="col-12 col-md-9 col-lg-10 mx-auto"> <textarea style="background-color: rgba(233, 235, 235, 1);" class="form-control form-control-lg rounded custom-input-shadow" rows="8" placeholder="E.g. oliver123@gmail.com, john_walter@gmail.com"></textarea>
+                    </div>
     <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
-            <form>
-                <div class="mb-3">
-                    <textarea class="form-control form-control-lg rounded  custom-input-shadow" rows="8" placeholder="E.g. oliver123@gmail.com, john_walter@gmail.com"></textarea>
-                </div>
-                <button class="btn btn-lg w-100 rounded verify  text-white" type="submit">
-                    <i class="fa-solid fa-play me-2 text-white"></i> Start Verification
+        <div  class="col-sm-10 col-md-8 col-lg-7 col-xl-6 mt-xl-3">
+            <form >
+              
+                <button  class="btn btn-lg w-100 rounded verify  text-white" type="submit">
+                    <i class="fa-solid fa-play me-2 text-white"></i>  Verify
                 </button>
             </form>
         </div>
     </div>
 </div>
-            <div id="tab-integration" class="tab-pane">
-                <p>Integration settings here...</p>
-            </div>
+           <div id="tab-integration" class="tab-pane">
+  <div class="d-flex flex-column justify-content-center align-items-center text-center mt-xl-5" style="min-height: 300px;">
+    <span>
+      <i class="fa-solid fa-gears" style="font-size: 100px;color: black;"></i>
+    </span>
+    <p style="font-size: 48px; font-weight: 700; margin-top: 20px;">Coming Soon</p>
+  </div>
+</div>
+
         </div>
     </div>
 </div>

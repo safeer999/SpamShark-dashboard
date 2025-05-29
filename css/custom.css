@@ -1,59 +1,83 @@
-.active-title{
+.active-title {
     font-weight: 700;
-     font-family: "Poppins", sans-serif;
-     size: 24px;
-}.admin-name{
+    font-family: "Poppins", sans-serif;
+    size: 24px;
+}
+
+.admin-name {
     font-weight: 700;
-     font-family: "Poppins";
-     size: 16px;
-}.metismenu{
+    font-family: "Poppins";
+    size: 16px;
+}
+
+.metismenu {
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-   
+
     gap: 10px;
-}.nav-text{
+}
+
+.nav-text {
     font-weight: 700;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-      font-size: 16px;
-}.small{
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.small {
     font-weight: 400;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-}.header-right{
-    color:black;
-}.nav-title{
-     font-weight: 700;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-      font-size: 24px;
-}.small{
-     font-weight: 700;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-      font-size: 13px;
-}.fw-bold{
-     font-weight: 700;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-    
-}.text-first{
-     font-weight: 700;
-      font-family: "Poppins";
-      color: rgba(0, 164, 128, 1);
-      font-size: 48px;
-}.text-second{
-     font-weight: 700;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-      font-size: 48px;
-}p{
-     font-weight: 400;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-      font-size: 16px; 
-}.card-body {
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+}
+
+.header-right {
+    color: black;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+}
+
+.small {
+    font-weight: 700;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+    font-size: 13px;
+}
+
+.fw-bold {
+    font-weight: 700;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.text-first {
+    font-weight: 700;
+    font-family: "Poppins";
+    color: rgba(0, 164, 128, 1);
+    font-size: 48px;
+}
+
+.text-second {
+    font-weight: 700;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+    font-size: 48px;
+}
+
+p {
+    font-weight: 400;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.card-body {
     height: 596px;
     width: 1000px;
     background-color: white;
@@ -70,7 +94,7 @@
 }
 
 .card-body .row-button .btn {
-    background-color:white;
+    background-color: white;
     border-radius: 30%;
     color: black;
     transition: all 0.3s ease;
@@ -92,17 +116,23 @@
 
 /* ACTIVE tab button */
 .single .tab-btn.active {
-    color: rgba(0, 164, 128, 1); 
-   
-}.file .tab-btn.active {
-    color: rgba(0, 164, 128, 1); 
-   
-}.paste .tab-btn.active {
-    color: rgba(0, 164, 128, 1); 
-   
-}.integration .tab-btn.active {
-    color: rgba(0, 164, 128, 1); 
-   
+    color: rgba(0, 164, 128, 1);
+
+}
+
+.file .tab-btn.active {
+    color: rgba(0, 164, 128, 1);
+
+}
+
+.paste .tab-btn.active {
+    color: rgba(0, 164, 128, 1);
+
+}
+
+.integration .tab-btn.active {
+    color: rgba(0, 164, 128, 1);
+
 }
 
 
@@ -119,37 +149,55 @@
 
 .tab-pane.active {
     display: block;
-}.center{
+}
+
+.center {
     font-weight: 600;
-      font-family: "Poppins";
-      color: rgba(0, 0, 0, 1);
-      font-size: 16px;
-}.verify{
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.verify {
     background: linear-gradient(to right, rgba(0, 69, 111, 1), rgba(0, 164, 128, 1));
     font-weight: 400;
     font-size: 16px;
     height: 44px;
-}.background{
+}
+
+.background {
     background-color: white;
-}.custom-input{
-     height: 44px;
-}.custom-input {
-        border: 1px solid black; 
-       
-    }
+}
 
-    
-    .custom-input::placeholder {
-        color: rgb(0, 0, 0); 
-      
-    }
+.custom-input {
+    height: 44px;
+}
 
-   
-    .custom-input:focus {
-        border-color: black; 
-        box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .25); 
-        outline: 0;
-    }.text-area{
-        height: 207px;
-        width: 772px;
-    }
+.custom-input {
+    border: 1px solid black;
+
+}
+
+
+.custom-input::placeholder {
+    color: rgb(0, 0, 0);
+
+}
+
+
+.custom-input:focus {
+    border-color: black;
+    box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .25);
+    outline: 0;
+}
+
+.text-area {
+    height: 207px;
+    width: 772px;
+}.left-card{
+   background: linear-gradient(to right, rgba(0, 69, 111, 1), rgba(0, 164, 128, 1));  
+}.top-card{
+    width: 500px;
+    height: 450px;
+}
+
