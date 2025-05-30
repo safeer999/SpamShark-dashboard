@@ -7308,7 +7308,7 @@ body {
   max-width: 100%; }
 
 #main-wrapper {
-  height: 960px;
+  height: 3000px;
   opacity: 0;
   transition: all 0.25s ease-in;
   overflow: hidden;

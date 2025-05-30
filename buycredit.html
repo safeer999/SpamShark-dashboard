@@ -53,7 +53,7 @@
         <!--**********************************
             Nav header start
         ***********************************-->
-        <div class="nav-header">
+        <div  class="nav-header">
             <div class="brand-logo">
                 <a href="index.html">
                     <b class="logo-abbr"><img src="images/logo.png" alt="" /> </b>
@@ -213,31 +213,134 @@
         <!--**********************************
             Content body start
         ***********************************-->
-        <div class="content-body px-xl-5">
-    <div class="row g-1">
-  <div class="col">
-    <div class="card promotion-card evergreen top-card">
-      <div class="card-icon">💰</div> 
-      <h2>Evergreen Promotion</h2>
-      <p>Buy at least 5,000,000 credits & get 1 million credits for free.</p>
-      <p class="extra-info">+1 MILLION EXTRA FOR FREE</p>
+<div class="content-body px-xl-5">
+  <div class="my-4">
+    <h2 class="text-second">
+      <strong class="text-first">BUY</strong> CREDITS
+    </h2>
+  </div>
+
+  <!-- First 2 custom cards -->
+  <div class="d-flex flex-wrap gap-4 mb-4   text-center">
+    <div class="custom-card top-left-card">
+        <img style=" height: 100px;height: 100px;" src="/images/custom/coin.png" alt="" class="img-fluid">
+        <h1 class="text-white mt-xl-3">Evergreen Promotion</h1>
+        <h5 class="text-white">Buy at least 5,000,000 credits & </h5>
+        <h5 class="text-white">get 1 million credits for free.</h5>
+         <h2 class="text-white mt-xl-5">+1 MILLION <span style="font-size: 20px; font-family: poppins;"> EXTRA FOR FREE</span> </h2>
+    </div>
+    <div class="custom-card top-right-card">
+         <img style=" height: 100px;height: 100px;" src="/images/custom/coin.png" alt="" class="img-fluid">  
+          <h1  class="text-white mt-xl-3 ">Extra Verification</h1>
+        <h1 class="text-white">Credits</h1>
+        <h3 class="text-white">You get up to 30% extra credits</h3>
+        <h3 class="text-white"> for free. Expires soon.</h3>
+        <p class="timer-display" id="extraVerificationTimer">
+    <span class="timer-val" data-unit="h">00</span><span class="timer-unit">ʰ</span>
+    <span class="timer-val" data-unit="m">00</span><span class="timer-unit">ᵐ</span>
+    <span class="timer-val" data-unit="s">00</span><span class="timer-unit">ˢ</span>
+    <span class="timer-val small-ms" data-unit="ms">0</span>
+</p>
     </div>
   </div>
-  <div class="col">
-    <div class="card promotion-card extra-verification top-card">
-      <div class="card-icon">➕</div> 
-      <h2>Extra Verification Credits</h2>
-      <p>You get up to 30% extra credits for free. Expires soon.</p>
-      <p class="timer">3ʰ 16ᵐ 27ˢ 3</p>
+
+  <!-- Cards 3 to 13 -->
+  <div class="d-flex flex-wrap gap-4 bottom-cards  text-center">
+    <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+       <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+      <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+       <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+      <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+    <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+     <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+        <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+       <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+       <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
+    </div>
+        <div class="normal-card">
+      <h1 style="color: rgba(0, 164, 128, 1);">10,000</h1>
+      <span style="color: black;">Email Verification Credits</span>
+      <h3 style="color: rgba(0, 0, 0, 1);font-weight: 700; font-family: poppins;">Only 37 USD</h3>
+        <button class="btn btn-lg w-100 rounded verify custom-gradient-button custom-button-shadow text-white" type="submit" id="verify-button">
+                    <i class="fa-solid fa-plus me-2 text-white"></i> Buy Credits
+                </button>
     </div>
   </div>
 </div>
 
 
-         
-      
-   
-        </div>
+
+
+
         <!--**********************************
             Content body end
         ***********************************-->
@@ -282,6 +385,92 @@
     <script src="./plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
 
     <script src="./js/dashboard/dashboard-1.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    function startCountdown(durationInSeconds, displayElementId) {
+        let timer = durationInSeconds;
+        const display = document.getElementById(displayElementId);
+
+        if (!display) {
+            console.error('Timer display element not found:', displayElementId);
+            return;
+        }
+
+        // Get the span elements within the timer display
+        const hoursSpan = display.querySelector('[data-unit="h"]');
+        const minutesSpan = display.querySelector('[data-unit="m"]');
+        const secondsSpan = display.querySelector('[data-unit="s"]');
+        const msSpan = display.querySelector('[data-unit="ms"]');
+
+        let interval = setInterval(function() {
+            if (timer < 0) {
+                clearInterval(interval);
+                display.innerHTML = 'Expired!'; // Or any other message
+                return;
+            }
+
+            const hours = Math.floor(timer / 3600);
+            const minutes = Math.floor((timer % 3600) / 60);
+            const seconds = Math.floor(timer % 60);
+
+            // Simulate milliseconds (since actual JS timers aren't precise enough for true ms countdown)
+            // This will give a single last digit that changes every 100ms
+            const millisecondsDigit = Math.floor((performance.now() / 100) % 10);
+
+            function updateAndAnimate(span, newValue) {
+                const currentValue = span.textContent;
+                const newFormattedValue = newValue.toString().padStart(2, '0'); // Pad with 0 for h, m, s
+
+                if (currentValue !== newFormattedValue) {
+                    span.textContent = newFormattedValue;
+                    span.classList.add('changed');
+                    // Remove animation class after it completes
+                    span.addEventListener('animationend', () => {
+                        span.classList.remove('changed');
+                    }, { once: true });
+                }
+            }
+
+            // Update hours, minutes, seconds
+            updateAndAnimate(hoursSpan, hours);
+            updateAndAnimate(minutesSpan, minutes);
+            updateAndAnimate(secondsSpan, seconds);
+
+            // Milliseconds digit (doesn't need padding)
+            const currentMs = msSpan.textContent;
+            const newMs = millisecondsDigit.toString();
+            if (currentMs !== newMs) {
+                msSpan.textContent = newMs;
+                msSpan.classList.add('changed');
+                msSpan.addEventListener('animationend', () => {
+                    msSpan.classList.remove('changed');
+                }, { once: true });
+            }
+
+
+            timer--; // Decrement the main timer every second
+        }, 1000); // Update every second
+    }
+
+    // --- How to use it ---
+    // Calculate your end time: e.g., 3 hours, 16 minutes, 27 seconds from now
+    // Get the current time
+    const now = new Date();
+    // Set the end time (e.g., 3 hours 16 minutes 27 seconds from a specific point)
+    // For demonstration, let's set an end time 3 hours, 16 minutes, 27 seconds from when the page loads
+    const initialHours = 3;
+    const initialMinutes = 16;
+    const initialSeconds = 27;
+
+    const totalDurationInSeconds = (initialHours * 3600) + (initialMinutes * 60) + initialSeconds;
+
+    // Start the countdown for the "Extra Verification Credits" card
+    startCountdown(totalDurationInSeconds, 'extraVerificationTimer');
+
+    // If you have other timers, call startCountdown for each one with its own ID and duration
+    // startCountdown(anotherDuration, 'anotherTimerId');
+});
+</script>
 </body>
 
 </html>
